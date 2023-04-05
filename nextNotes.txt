@@ -1,0 +1,2 @@
+Run the app by running dev script from package.json "npm run dev".
+------------------------------------------------------------------
