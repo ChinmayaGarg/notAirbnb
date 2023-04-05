@@ -4,5 +4,7 @@ Run the app by running dev script from package.json "npm run dev".
 NEXT JS 13 has app folder, which contains layout.tsx and page.tsx (default route will redirect to page.tsx which is first child of app folder 
 and layout.tsx contains the layout which will be applied to every page.tsx in the sme level and in the child level.)
 
+------------------------------------------------------------------
+https://nextjs.org/learn/seo/rendering-and-ranking/metadata
 Layout.tsx in the app folder has const "metadata". This "metadata" is reserved constant in Next 13 layout file where we can control
 the title, description and othe options.
