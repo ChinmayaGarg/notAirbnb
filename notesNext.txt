@@ -40,3 +40,44 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
 https://web.dev/variable-fonts/
 What are variable fonts and their benefits?
 Variable fonts gives best performance.
+
+------------------------------------------------------------------
+https://beta.nextjs.org/docs/rendering/server-and-client-components
+client vs Server Components
+We have to explicitly make the components client, this is something we have to do when
+working in the app folder because every component and page we create inside the app folder
+is a server component by default.
+There can be hydration problems if we mix and match imports with client and server components.
+When to use Server vs. Client Components?
+Moving Client Components to the Leaves, increases performance.
+Cannot Import Server Components into Client Components. Why and what to do?
+Passing props from Server to Client Components (Serialization) [Go to: 
+      1. https://beta.nextjs.org/docs/data-fetching/fundamentals#fetching-data-with-server-components
+      2. https://developer.mozilla.org/en-US/docs/Glossary/Serialization      
+]
+Where is the Network Boundary?
+Keeping Server-Only Code out of Client Components (Poisoning) -> server-only and client-only npm packages
+Handling Third-Party Packages as "use client" directive is a new React feature.
+Data Fetching -> Recommended to fetch data on server side, unless specific reason to fetch on client-side.
+Using Context and other state management tools with server components
+Sharing data between Server Components
+Sharing fetch requests between Server Components
+
+------------------------------------------------------------------
+https://beta.nextjs.org/docs/rendering/fundamentals#client-and-server-rendering-at-the-component-level
+client vs server rendering
+static vs dynamic rendering
+react vs NEXT JS functionality 
+How to rendering Client and Server Components in each other? Import and props: C in S | C in C | S in S ---- Only props or child S in C
+
+------------------------------------------------------------------
+https://www.youtube.com/watch?v=g0Jc5D6tiCo&ab_channel=CoderOne
+React server Components in NEXT JS 13. 
+How to make these server components SSR or SSG or ISR.
+
+------------------------------------------------------------------
+https://beta.nextjs.org/docs/data-fetching/fundamentals#fetching-data-with-server-components
+
+------------------------------------------------------------------
+https://atomizedobjects.com/blog/react/what-is-hydration-in-react-based-applications/
+Hydration is the process of using client-side JavaScript to add application state and interactivity to server-rendered HTML.
