@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=fnQusZt49_Y&ab_channel=MattPocock
+https://twitter.com/dan_abramov/status/1133878326358171650
+default props from typescript has been deperecated
+
+----------------------------------------------------------------------------
+https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets
+Cheatsheet TypeScript
+
+----------------------------------------------------------------------------
+https://www.typescriptlang.org/docs/handbook/2/basic-types.html
+TS Basics*****
+
+----------------------------------------------------------------------------
+https://stackoverflow.com/questions/59988667/typescript-react-fcprops-confusion
+What is React.FC when using TS?
